@@ -581,3 +581,59 @@ header nav a{
     right: 0px;
     position: absolute;
 }
+
+.contact{
+    width: 1920px;
+    height: 365px;
+    position: relative;
+    background: linear-gradient(90deg, #2779B8 46.44%, rgba(32, 84, 125, 0.88) 58.7%);
+}
+
+.contact h1{
+    position: absolute;
+    
+    left: 732px;
+    top: 60px;
+
+
+    font-family: 'Glory';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 94px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact p{
+
+    position: absolute;
+    width: 659px;
+    height: 91px;
+    left: 632px;
+    top: 204px;
+    
+    font-family: 'Glory';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.contact .icon{
+    position: absolute;
+    top: 302px;
+    left: 841px;
+}
+.tAndS{
+
+}
