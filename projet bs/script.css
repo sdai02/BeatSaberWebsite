@@ -713,5 +713,55 @@ header nav a{
 }
 
 .tAndS{
+    width: 1920px;
+    height: 116px;
+    
+    
+    background: #11161D;
 
+}
+
+.tAndS span{
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+
+
+.tAndS span p{
+    font-family: 'Glory';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 69.8%;
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-right: 28px;
+}
+
+.tAndS p1{
+    font-family: 'Glory';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 69.8%;
+    display: flex;
+    justify-content: center;
+    padding-top: 27px;
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+}
+.tAndS img{
+    
+    width: 16px;
+    height: 16px;
+    
+    
 }
