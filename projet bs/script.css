@@ -1,5 +1,5 @@
 
-*{
+.wrapper{
     box-sizing: border-box;
     max-width: 100%;
 }
@@ -518,12 +518,13 @@ header nav a{
 
 .awards .colone{
     padding-top: 72px;
+    display: flex;
 }
 
 .awards .colone ul{
     display: flex;
     padding-top: 12px;
-    padding-left: 420px;
+    
 }
 
 .awards .colone ul li{
