@@ -6,7 +6,7 @@
 }
 
 header{
-    width: 1920px;
+    width: 100%;
     height: 84px;
 
 
@@ -18,7 +18,7 @@ header{
    
 }
 header .logo{
-    width: 227px;
+    width: 11%;
     padding-left: 10px;
 }
 
@@ -51,7 +51,7 @@ header nav {
 
 header nav a{
     text-decoration: none;
-    padding-right: 48px;
+    padding-right: 2.5%;
     color: #FFFFFF;
     transform: rotate(-0.07deg);
     align-items: center;
@@ -71,7 +71,7 @@ a:hover{
 }
 .banner .background{
     
-    height: 936px;
+    height: 48%;
     
 }
 .banner .background img{
@@ -80,20 +80,23 @@ a:hover{
 }
 .banner .logo{
     position: absolute;
-    width: 1272px;
-    height: 252px;
-    left: 323px;
-    top: 320px;
+    width: 66%;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
+
 
 .banner button{
     box-sizing: border-box;
 
     position: absolute;
-    width: 390px;
-    height: 123px;
-    left: 764px;
-    top: 693px;
+    width: 20%;
+    height: 11%;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 
     border: 6px solid #FFFFFF;
     background:rgba(255, 255, 255, 0);
@@ -114,6 +117,7 @@ a:hover{
     padding-left: 61px;
     color: #FFFFFF;
 }
+
 button:hover{
     background: rgba(41, 128, 195, 0.7);
 }
@@ -301,7 +305,7 @@ button:hover{
     align-items: center;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    padding-left: 100px;
+    padding-left: 5%;
     
     color: #D0011B;
 }
@@ -380,16 +384,16 @@ button:hover{
 .body .presentation h1{
 
     
-    width: 304px;
-    height: 107px;
-    padding: 121px 808px 0;
+    margin: 0 auto;
+    display: block;
+    padding: 121px 0;
+
+
     font-family: 'Inter';
     font-style: italic;
     font-weight: 700;
     font-size: 79px;
     line-height: 54px;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.09em;
     text-transform: uppercase;
@@ -400,41 +404,36 @@ button:hover{
     
     width: 1599px;
     height: 540px;
-    margin-left: 160px;
-    margin-top: 70px;
+    margin: 0 auto;
+    display: block;
     
 }
 
 .body .sondtrack h1{
     
-    width: 1258px;
-    height: 108px;
-    margin-left: 331px;
-    margin-top: 121px;
+    padding-top: 121px;
+    margin: 0 auto;
+    display: block;
     
+
     font-family: 'Inter';
     font-style: italic;
     font-weight: 700;
     font-size: 84px;
     line-height: 54px;
-    /* or 64% */
-    
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    
     color: #FFFFFF;
 
 } 
 
 .body .sondtrack h3{
     
-    width: 1258px;
+    padding: 199px 0 44px;
     height: 108px;
-    margin-left: 636px;
-    margin-top: 121px;
+    margin: 0 auto;
+    display: block;
     
     font-family: 'Inter';
     font-style: italic;
@@ -443,7 +442,7 @@ button:hover{
     line-height: 54px;
     /* or 64% */
     
-    display: flex;
+    
     align-items: center;
     text-align: center;
     letter-spacing: 0.09em;
@@ -461,7 +460,7 @@ button:hover{
 }
 
 .body .sondtrack .img_album .sound_on{
-    width: 470px;
+    width: 24%;
 }
 
 .body .sondtrack .img_album .sound_off{
@@ -504,8 +503,9 @@ button:hover{
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 160px;
-    top: 247px;
+    left: 11%;
+    top: 43%;
+    transform: translate(-50%,-50%);
 
     background: rgba(0, 0, 0, 0.5);
 }
@@ -518,8 +518,9 @@ button:hover{
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 1660px;
-    top: 247px;
+    left: 89%;
+    top: 43%;
+    transform: translate(-50%,-50%);
 
     background: rgba(0, 0, 0, 0.5);
 }
@@ -536,8 +537,9 @@ button:hover{
 }
 
 .awards .colone{
-    padding: 12px 410px;
+    padding: 12px;
     display: flex;
+    justify-content: center;
     
 }
 
@@ -545,8 +547,8 @@ button:hover{
     display: flex;
     padding: 12px 74px 0;
     position: relative;
-    width: 321px;
-    height: 121px;
+    width: 307px;
+    height: 115px;
     
     
 }
@@ -554,10 +556,10 @@ button:hover{
 .awards .colone ul li{
     display: inline;
     position: absolute;
-    left: 32%;
-    width: 190px;
-    height: 120px;
-    
+    left: 50%;
+    width: 70%;
+    top: 34%;
+    transform: translate(-50%,-50%);
 }
 
 .awards .colone ul li h1 {
@@ -590,16 +592,17 @@ button:hover{
     
     color: #FFFFFF;
 }
-.awards .colone ul img {
+.awards .colone ul .left {
     
     width: 60px;
     height: 119px;
-    
-    background-blend-mode: color-dodge;
+    margin: -14px -74px;
 }
+
 .awards .colone ul .right{
-    right: 0px;
-    position: absolute;
+    width: 60px;
+    height: 119px;
+    margin: -14px 264px;
 }
 
 .contact{
@@ -784,4 +787,6 @@ button:hover{
 
  
     
- 
+ @media screen and (width: 1) {
+    
+ }
