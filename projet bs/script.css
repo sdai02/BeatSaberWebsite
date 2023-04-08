@@ -1,7 +1,5 @@
 
-.wrapper{
-    
-}
+
 *{
     box-sizing: border-box;
     max-width: 100%;
@@ -62,6 +60,9 @@ header nav a{
     text-transform: uppercase;
     font-weight: 700;
 }
+a:hover{
+    color: gray;
+}
 
 /* banner */
 
@@ -112,6 +113,9 @@ header nav a{
     text-transform: uppercase;
     padding-left: 61px;
     color: #FFFFFF;
+}
+button:hover{
+    background: rgba(41, 128, 195, 0.7);
 }
 
 /* buy */
@@ -172,6 +176,7 @@ header nav a{
 
 
 /* steam  */
+
 .buy_on .steam img{
     position: absolute;
     width: 70px;
@@ -180,7 +185,7 @@ header nav a{
     top: 10px;
 }
 
-.buy_on .steam{
+.buy_on button{
     box-sizing: border-box;
 
     position: absolute;
@@ -195,7 +200,7 @@ header nav a{
     
 }
 
-.buy_on .steam span{
+.buy_on .steam button {
     font-family: 'Hind Madurai';
     font-style: normal;
     font-weight: 700;
@@ -207,12 +212,16 @@ header nav a{
     color: #FFFFFF;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    padding-left: 84px;
+    padding: 25px 84px;
 }
+
+button:hover{
+    background: #1C3241;
+} 
 
 /* oculus */
 
-.buy_on .oculus{
+.buy_on .oculus button{
 
     box-sizing: border-box;
 
@@ -235,7 +244,7 @@ header nav a{
     top: 11px;
 }
 
-.buy_on .oculus span{
+.buy_on .oculus button{
 
     
     font-family: 'Hind Madurai';
@@ -252,9 +261,13 @@ header nav a{
     color: #000000;
 }
 
+button:hover{
+    background: #1C3241;
+} 
+
 /* humble_bundle */
 
-.buy_on .humble_bundle{
+.buy_on .humble_bundle button{
     position: absolute;
     width: 407px;
     height: 108px;
@@ -275,7 +288,7 @@ header nav a{
     
 }
 
-.buy_on .humble_bundle span{
+.buy_on .humble_bundle button{
     font-family: 'Hind Madurai';
     font-style: normal;
     font-weight: 700;
@@ -294,7 +307,7 @@ header nav a{
 
 /* playstation_store */
 
-.buy_on .playstation_store{
+.buy_on .playstation_store button{
     box-sizing: border-box;
 
     position: absolute;
@@ -317,7 +330,7 @@ header nav a{
     
 }
 
-.buy_on .playstation_store span{
+.buy_on .playstation_store button{
 
     font-family: 'Hind Madurai';
     font-style: normal;
