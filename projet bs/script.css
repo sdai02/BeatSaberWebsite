@@ -3,7 +3,9 @@
     
     max-width: 100%;
 }
-
+*{
+    box-sizing: border-box;
+}
 
 header{
     width: 1920px;
@@ -532,7 +534,7 @@ header nav a{
 .awards .colone ul li{
     display: inline;
     position: absolute;
-    left: 126px;
+    left: 32%;
     width: 190px;
     height: 120px;
     
