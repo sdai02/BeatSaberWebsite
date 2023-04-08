@@ -1,0 +1,575 @@
+
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+
+header{
+    width: 1920px;
+    height: 84px;
+
+
+    background: rgba(19, 35, 48, 0.9);
+    
+    position: fixed;
+    
+    z-index: 1;
+   
+}
+header .logo{
+    width: 227px;
+}
+
+header .logo img{
+    width: 100%;
+    padding-top: 12px;
+}
+
+header nav {
+    
+    font-family: 'Glory';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 54px;
+    /* or 186% */
+
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    display: flex;
+    
+    
+}
+
+
+
+
+header nav a{
+    text-decoration: none;
+    padding-right: 48px;
+    color: #FFFFFF;
+    transform: rotate(-0.07deg);
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* banner */
+
+.banner{
+    position: relative;
+}
+.banner .background{
+    width: 1920px;
+    height: 936px;
+    
+}
+.banner .background img{
+    width: 100%;
+    height: 100%;
+}
+.banner .logo{
+    position: absolute;
+    width: 1272px;
+    height: 252px;
+    left: 323px;
+    top: 320px;
+}
+
+.banner button{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 390px;
+    height: 123px;
+    left: 764px;
+    top: 693px;
+
+    border: 6px solid #FFFFFF;
+    background:rgba(255, 255, 255, 0);
+    border-radius: 60px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 54px;
+    
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    padding-left: 61px;
+    color: #FFFFFF;
+}
+
+/* buy */
+
+.buy_off{
+    display: none;
+    
+}
+.buy_on{
+    position: relative;
+    width: 1920px;
+    height: 590px;
+    
+    
+    background: #2980C3;
+    background-blend-mode: darken;
+}
+
+.buy_on .texte{
+    position: absolute;
+    width: 864px;
+    height: 204px;
+    left: 79px;
+    top: 193px;
+    color: #FFFFFF;
+}
+
+.buy_on .texte p{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 49px;
+    /* or 144% */
+    
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    
+    
+}
+
+.buy_on .texte h1{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 113px;
+    line-height: 0px;
+    /* or 0% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    padding-bottom: 55px;
+}
+
+
+/* steam  */
+.buy_on .steam img{
+    position: absolute;
+    width: 70px;
+    height: 72px;
+    left: 290px;
+    top: 10px;
+}
+
+.buy_on .steam{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 407px;
+    height: 108px;
+    left: 1189px;
+    top:  60px;
+
+    border: 6px solid #FFFFFF;
+    border-radius: 60px;
+    background: rgba(217, 217, 217, 0);
+    
+}
+
+.buy_on .steam span{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 54px;
+    
+    
+    display: flex;
+    color: #FFFFFF;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    padding-left: 84px;
+}
+
+/* oculus */
+
+.buy_on .oculus{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 404px;
+    height: 108px;
+    left: 1118px;
+    top: 180px;
+    
+    border: 6px solid #FFFFFF;
+    border-radius: 60px;
+    background: rgba(255, 255, 255, 0);
+}
+
+.buy_on .oculus img{
+    position: absolute;
+    width: 67px;
+    height: 62px;
+    left: 287px;
+    top: 11px;
+}
+
+.buy_on .oculus span{
+
+    
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 54px;
+   
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    padding-left: 70px;
+    color: #000000;
+}
+
+/* humble_bundle */
+
+.buy_on .humble_bundle{
+    position: absolute;
+    width: 407px;
+    height: 108px;
+    left: 1045px;
+    top: 300px;
+
+    border: 6px solid #FFFFFF;
+    border-radius: 60px;
+    background: rgba(255, 255, 255, 0);
+}
+
+.buy_on .humble_bundle img{
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    left: 298px;
+    top: 18px;
+    
+}
+
+.buy_on .humble_bundle span{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    /* or 118% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    padding-left: 120px;
+    
+    color: #D0011B;
+}
+
+/* playstation_store */
+
+.buy_on .playstation_store{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 404px;
+    height: 110px;
+    left: 973px;
+    top: 420px;
+    
+    border: 6px solid #FFFFFF;
+    border-radius: 60px;
+    background: rgba(255, 255, 255, 0);
+}
+
+.buy_on .playstation_store img{
+    position: absolute;
+    width: 60px;
+    height: 58px;
+    left: 295px;
+    top: 18px;
+    
+}
+
+.buy_on .playstation_store span{
+
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    padding-left: 36px;
+    padding-top: 13px;
+    
+    color: #000080;
+}
+
+.rectangle{
+    display: block;
+    width: 1920px;
+    height: 27px;
+    
+    background: #0D1D27;
+}
+
+/* body */
+
+.body{
+
+    
+    width: 1920px;
+    height: 2851px;
+    left: 0px;
+    top: 1553px;
+
+    background: linear-gradient(270deg, #1C3241 24.39%, #354865 65.92%);
+
+}
+
+.body .presentation h1{
+
+    
+    width: 304px;
+    height: 107px;
+    margin-left: 808px;
+    padding-top: 49px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 79px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.body .presentation iframe{
+    
+    width: 1599px;
+    height: 540px;
+    margin-left: 160px;
+    margin-top: 70px;
+    
+}
+
+.body .sondtrack h1{
+    
+    width: 1258px;
+    height: 108px;
+    margin-left: 331px;
+    margin-top: 40px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 54px;
+    /* or 64% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+} 
+
+.body .sondtrack h3{
+    
+    width: 1258px;
+    height: 108px;
+    margin-left: 636px;
+    margin-top: 40px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 54px;
+    /* or 64% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.body .sondtrack .img_album{
+    justify-content: space-between;
+    display: flex;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 61px;
+    position: relative;
+        
+}
+
+.body .sondtrack .img_album .sound_on{
+    width: 470px;
+}
+
+.body .sondtrack .img_album .sound_off{
+    display: none;
+}
+
+.body .sondtrack .img_album .sound_on img{
+    width: 100%;
+    
+}
+
+.body .sondtrack .img_album .sound_on h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 69.8%;
+    padding-top: 80px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.body .sondtrack .img_album .sound_on p{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 69.8%;
+    padding-top: 30px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.body .sondtrack .img_album .left{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 160px;
+    top: 247px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+.body .sondtrack .img_album .left img{
+    width: 100px;
+    object-fit: cover;
+}
+
+.body .sondtrack .img_album .right{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1660px;
+    top: 247px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.body .sondtrack .img_album .right img{
+    width: 100px;
+    object-fit: cover;
+}
+
+.awards {
+    width: 1920px;
+    height: 528px;
+    background: linear-gradient(90deg, rgba(190, 57, 71, 0.81) 42.89%, rgba(119, 35, 46, 0.79) 66.95%);
+}
+
+.awards .colone{
+    padding-top: 72px;
+}
+
+.awards .colone ul{
+    display: flex;
+    padding-top: 12px;
+    padding-left: 420px;
+}
+
+.awards .colone ul li{
+    display: inline;
+    
+    
+    
+}
+
+.awards .colone ul li h1 {
+    font-family: 'Glory';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 26px;
+    color: #FFFFFF;
+    
+}
+
+.awards .colone ul li p{
+    font-family: 'Glory';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    
+    color: #FFFFFF;
+}
+.awards .colone ul img {
+    
+    width: 60px;
+    height: 119px;
+    
+    background-blend-mode: color-dodge;
+}
+.awards .colone ul .right{
+    margin-right: 72px;
+}
