@@ -1,6 +1,6 @@
 
 .wrapper{
-    box-sizing: border-box;
+    
     max-width: 100%;
 }
 
@@ -756,9 +756,13 @@ header nav a{
     
 }
 .tAndS img{
-    
     width: 16px;
     height: 16px;
-    
-    
 }
+
+ @media screen and (max-width: 1366px) {
+    body .wrapper{
+        max-width: 90%;
+    }
+    
+ }
