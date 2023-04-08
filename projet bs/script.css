@@ -185,7 +185,7 @@ button:hover{
     top: 10px;
 }
 
-.buy_on button{
+.buy_on .steam button{
     box-sizing: border-box;
 
     position: absolute;
@@ -197,8 +197,8 @@ button:hover{
     border: 6px solid #FFFFFF;
     border-radius: 60px;
     background: rgba(217, 217, 217, 0);
-    
 }
+
 
 .buy_on .steam button {
     font-family: 'Hind Madurai';
@@ -215,7 +215,7 @@ button:hover{
     padding: 25px 84px;
 }
 
-button:hover{
+.btn:hover{
     background: #1C3241;
 } 
 
@@ -265,6 +265,7 @@ button:hover{
     background: #1C3241;
 } 
 
+
 /* humble_bundle */
 
 .buy_on .humble_bundle button{
@@ -275,8 +276,9 @@ button:hover{
     top: 300px;
 
     border: 6px solid #FFFFFF;
-    border-radius: 60px;
     background: rgba(255, 255, 255, 0);
+    border-radius: 60px;
+    
 }
 
 .buy_on .humble_bundle img{
@@ -305,6 +307,10 @@ button:hover{
     color: #D0011B;
 }
 
+.btn:hover{
+    background: #1C3241;
+} 
+
 /* playstation_store */
 
 .buy_on .playstation_store button{
@@ -317,8 +323,9 @@ button:hover{
     top: 420px;
     
     border: 6px solid #FFFFFF;
-    border-radius: 60px;
     background: rgba(255, 255, 255, 0);
+    border-radius: 60px;
+    
 }
 
 .buy_on .playstation_store img{
@@ -348,6 +355,9 @@ button:hover{
     color: #000080;
 }
 
+.btn:hover{
+    background: #1C3241;
+} 
 .rectangle{
     display: block;
     
@@ -355,6 +365,7 @@ button:hover{
     
     background: #0D1D27;
 }
+
 
 /* body */
 
