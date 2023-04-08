@@ -517,8 +517,9 @@ header nav a{
 }
 
 .awards .colone{
-    padding-top: 72px;
+    padding-top: 25px;
     display: flex;
+    padding-left: 410px;
 }
 
 .awards .colone ul{
