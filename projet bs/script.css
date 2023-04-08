@@ -214,9 +214,8 @@ button:hover{
     text-transform: uppercase;
     padding: 25px 84px;
 }
-
-.btn:hover{
-    background: #1C3241;
+.steam button:hover{
+    background: #1d4864;
 } 
 
 /* oculus */
@@ -261,8 +260,8 @@ button:hover{
     color: #000000;
 }
 
-button:hover{
-    background: #1C3241;
+.oculus button:hover{
+    background: #1d4864;
 } 
 
 
@@ -296,7 +295,7 @@ button:hover{
     font-weight: 700;
     font-size: 34px;
     line-height: 40px;
-    /* or 118% */
+    
     
     display: flex;
     align-items: center;
@@ -307,8 +306,8 @@ button:hover{
     color: #D0011B;
 }
 
-.btn:hover{
-    background: #1C3241;
+.humble_bundle button:hover{
+    background: #1d4864;
 } 
 
 /* playstation_store */
@@ -355,8 +354,8 @@ button:hover{
     color: #000080;
 }
 
-.btn:hover{
-    background: #1C3241;
+.playstation_store button:hover{
+    background: #1d4864;
 } 
 .rectangle{
     display: block;
@@ -370,9 +369,6 @@ button:hover{
 /* body */
 
 .body{
-
-    
-    
     height: 2851px;
     left: 0px;
     top: 1553px;
