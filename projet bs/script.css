@@ -1,10 +1,10 @@
 
 .wrapper{
     
-    max-width: 100%;
 }
 *{
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 header{
@@ -69,7 +69,7 @@ header nav a{
     position: relative;
 }
 .banner .background{
-    width: 1920px;
+    
     height: 936px;
     
 }
@@ -122,7 +122,7 @@ header nav a{
 }
 .buy_on{
     position: relative;
-    width: 1920px;
+    
     height: 590px;
     
     
@@ -287,7 +287,7 @@ header nav a{
     align-items: center;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    padding-left: 120px;
+    padding-left: 100px;
     
     color: #D0011B;
 }
@@ -337,7 +337,7 @@ header nav a{
 
 .rectangle{
     display: block;
-    width: 1920px;
+    
     height: 27px;
     
     background: #0D1D27;
@@ -348,7 +348,7 @@ header nav a{
 .body{
 
     
-    width: 1920px;
+    
     height: 2851px;
     left: 0px;
     top: 1553px;
@@ -510,7 +510,7 @@ header nav a{
 }
 
 .awards {
-    width: 1920px;
+    
     height: 528px;
     background: linear-gradient(90deg, rgba(190, 57, 71, 0.81) 42.89%, rgba(119, 35, 46, 0.79) 66.95%);
 }
@@ -583,7 +583,7 @@ header nav a{
 }
 
 .contact{
-    width: 1920px;
+    
     height: 365px;
     
     background: linear-gradient(90deg, #2779B8 46.44%, rgba(32, 84, 125, 0.88) 58.7%);
@@ -607,7 +607,7 @@ header nav a{
 
 .contact p{
 
-    width: 659px;
+    
     height: 91px;
     
     padding: 30px 660px;
@@ -712,7 +712,7 @@ header nav a{
 }
 
 .tAndS{
-    width: 1920px;
+    
     height: 116px;
     
     
@@ -762,9 +762,6 @@ header nav a{
     height: 16px;
 }
 
- @media screen and (max-width: 1366px) {
-    body .wrapper{
-        max-width: 90%;
-    }
+ 
     
- }
+ 
