@@ -349,6 +349,24 @@
         </span>
         <p1>copyright <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Copyright.png?20130323200058" alt="">beat games</p1>
     </div>
-    
+    <script>
+        let $buy = document.querySelector(".banner button")
+        let $panel = document.querySelector(".buy_off");
+
+        console.log($buy, $panel);
+
+        let $switch = 1;
+
+        $buy.addEventListener('click', function () {
+            if( $switch > 0){
+            $panel.classList.remove("buy_off");
+            $panel.classList.add("buy_on");
+            $switch =- 1;
+        }else{ 
+            $panel.classList.remove("buy_on");
+            $panel.classList.add("buy_off");
+            $switch =+ 1;}
+        });
+    </script>
 </body>
 </html>
