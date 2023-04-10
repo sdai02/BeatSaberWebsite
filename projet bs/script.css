@@ -47,7 +47,51 @@ header nav {
 }
 
 
+header nav .menu{
+    display: flex;
+    max-width: 90px;
+}
+header nav .menu img{
+    width: 100%;
+}
 
+
+header span {
+    display: none;
+}
+
+header .ON{
+    
+    position: absolute;
+    background: rgba(19, 35, 48, 1);;
+    transform: translate(-50%,-50%);
+    right: -12%;
+    top: 320%;
+    width: 23%;
+  
+}
+header .ON a {
+    display: inline;
+}
+
+header .ON a {
+    
+    font-family: 'Glory';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 54px;
+    /* or 186% */
+
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    display: block;
+    color: #FFFFFF;
+    
+}
 
 header nav a{
     text-decoration: none;
@@ -416,7 +460,7 @@ button:hover{
 
 .body .sondtrack h1{
     
-    padding-top: 121px;
+    padding: 121px ;
     margin: 0 auto;
     display: block;
     
@@ -541,7 +585,7 @@ button:hover{
 
 .body .sondtrack h3{
     
-    padding: 199px 0 44px;
+    padding: 144px  0 121px;
     height: 108px;
     margin: 0 auto;
     display: block;
