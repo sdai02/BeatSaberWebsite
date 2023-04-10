@@ -80,11 +80,12 @@
             <div class="img_album"> 
 
                 <div class="left">
-                    <img src="chevron_left_FILL0_wght400_GRAD0_opsz48.png" alt="">  
+                    <button><img src="chevron_left_FILL0_wght400_GRAD0_opsz48.png" alt=""> </button> 
                 </div>
                 <div class="right">
-                    <img src="chevron_right_FILL0_wght400_GRAD0_opsz48.png" alt=""> 
+                    <button><img src="chevron_right_FILL0_wght400_GRAD0_opsz48.png" alt=""> </button>
                 </div>
+
                 <span class="sound_on">
                     <img src="OST_Vol_1.png" alt="">
                     <h2>BEAT SABER OST VOL. 1</h2>
@@ -101,13 +102,12 @@
                     <p>LISTEN NOW</p>
                 </span>
                 
-                
-                <span class="sound_off">
+                <span>
                     <img src="https://beatsaber.com/images/music/music11.jpg" alt="">
                     <h2>BEAT SABER OST VOL. 4</h2>
                     <p>LISTEN NOW</p>
                 </span>
-                <span class="sound_off">
+                <span>
                     <img src="https://beatsaber.com/images/music/music16.jpg" alt="">
                     <h2>BEAT SABER OST VOL. 5</h2>
                     <p>LISTEN NOW</p>
@@ -119,87 +119,87 @@
         <div class="sondtrack">
             <h3>music_pack</h3>
 
-            <div class="img_album">
-                <div class="left1" id="left1">
-                    <img src="chevron_left_FILL0_wght400_GRAD0_opsz48.png" alt="">  
+            <div class="img_album2">
+                <div class="left2" id="left2">
+                   <button> <img src="chevron_left_FILL0_wght400_GRAD0_opsz48.png" alt="">  </button>
                 </div>
-                <div class="right1" id="right1">
-                    <img src="chevron_right_FILL0_wght400_GRAD0_opsz48.png" alt=""> 
+                <div class="right2" id="right2">
+                    <button><img src="chevron_right_FILL0_wght400_GRAD0_opsz48.png" alt=""> </button>
                 </div>
 
-                <span class="sound_on1">
+                <span class="sound_on2">
                     <img src="https://beatsaber.com/images/music/music22.jpg" alt="">
                     <h2>IMAGINE DRAGONS MUSIC<br><br>
                         PACK</h2>
                     
                 </span>
-                <span class="sound_on1">
+                <span class="sound_on2">
                     <img src="https://beatsaber.com/images/music/music21.jpg" alt="">
                     <h2>ROCK MIXTAPE</h2>
                 </span>
-                <span class="sound_on1">
+                <span class="sound_on2">
                     <img src="https://beatsaber.com/images/music/music20.jpg" alt="">
                     <h2>THE WEEKND MUSIC PACK</h2>
                     
                 </span>
-                <span class="sound_off1">
+                <span>
                     <img src="https://beatsaber.com/images/music/music19.jpg" alt="">
                     <h2>LIZZO MUSIC PACK</h2>
                 </span>
-                <span class="sound_off1">
+                <span>
                     <img src="https://beatsaber.com/images/music/music18.jpg" alt="">
                     <h2>ELECTRONIC MIXTAPE</h2>
                 </span>
-                <span class="sound_off1">
+                <span>
                     <img src="https://beatsaber.com/images/music/music17.jpg" alt="">
                     <h2>FALL OUT BOY MUSIC PACK</h2>
                 </span>
-                <span class="sound_off1">
+                <span>
                     <img src="https://beatsaber.com/images/music/music15.jpg" alt="">
                     <h2>LADY GAGA MUSIC PACK</h2>
                 </span>
-                <span class="sound_off1">
+                <span>
                     <img src="https://beatsaber.com/images/music/music14.jpg" alt="">
                     <h2>BILLIE EILISH MUSIC PACK</h2>
                 </span>
-                <span class="sound_off1">
+                <span>
                     <img src="https://beatsaber.com/images/music/music13.jpg" alt="">
                     <h2>SKRILLEX MUSIC PACK</h2>
                 </span>
-                <span class="sound_off1">
+                <span>
                     <img src="https://beatsaber.com/images/music/music12.jpg" alt="">
                     <h2>INTERSCOPE MIXTAPE</h2>
                 </span>
-                <span class="sound_off1">
+                <span>
                     <img src="https://beatsaber.com/images/music/music10.jpg" alt="">
                     <h2>BTS MUSIC PACK</h2>
                 </span>
-                <span class="sound_off1">
+                <span>
                     <img src="" alt="">
                     <h2>LINKIN PARK MUSIC PACK</h2>
                 </span>
-                <span class="sound_off1">
+                <span>
                     <img src="" alt="">
                     <h2>TIMBALAND MUSIC PACK</h2>
                     
                 </span>
-                <span class="sound_off1">
+                <span>
                     <img src="" alt="">
                     <h2>GREEN DAY MUSIC PACK</h2>
                     
                 </span>
-                <span class="sound_off1">
+                <span>
                     <img src="" alt="">
                     <h2>ROCKET LEAGUE X
                         MONSTERCAT</h2>
                     
                 </span>
-                <span class="sound_off1">
+                <span>
                     <img src="" alt="">
                     <h2>PANIC! AT THE DISCO</h2>
                     
                 </span>
-                <span class="sound_off1">
+                <span>
                     <img src="" alt="">
                     <h2>MONSTERCAT MUSIC PACK VOL. 1</h2>
                     
@@ -354,15 +354,15 @@
         let $buy = document.getElementById("buy")
         let $panel = document.getElementById("panel");
 
-        let $album = document.querySelectorAll(".body .sondtrack .img_album .sound_on");
-        let $btnLeft = document.querySelectorAll(".body .sondtrack .img_album .left");
-        let $btnRight = document.querySelectorAll(".body .sondtrack .img_album .right");
-        let $albumoff= document.querySelectorAll(".body .sondtrack .img_album .sound_off");
+        let $album = document.querySelectorAll(".body .sondtrack .img_album span");
+        let $btnLeft = document.querySelector(".body .sondtrack .img_album .left button");
+        let $btnRight = document.querySelector(".body .sondtrack .img_album .right button");
+        
 
-        let $album1 = document.querySelectorAll(".body .sondtrack .img_album .sound_on1");
-        let $btnLeft1 = document.querySelectorAll(".body .sondtrack .img_album .left1");
-        let $btnRight1 = document.querySelectorAll(".body .sondtrack .img_album .right1");
-        let $albumoff1= document.querySelectorAll(".body .sondtrack .img_album .sound_off1");
+        let $album1 = document.querySelectorAll(".body .sondtrack .img_album .sound_on1 ");
+        let $btnLeft1 = document.querySelector(".body .sondtrack .img_album .left1 button");
+        let $btnRight1 = document.querySelector(".body .sondtrack .img_album .right1 button");
+        
 
         let $switch = 1;
 
@@ -377,8 +377,28 @@
             $switch =+ 1;}
         });
 
+        let index = 0;
+        let index1 = 1;
+        let index2 = 2;
+        
+         
+
         $btnLeft.addEventListener('click', function(){
-            
+            $album[index].classList.add('sound_off');
+            $album[index1].classList.add('sound_off');
+            $album[index2].classList.add('sound_off');
+
+            index += 1;
+            index1 += 1;
+            index2 += 1;
+
+            if (index > ($album.length - 1)) {
+                index = 0;
+            }
+
+            $album[index].classList.add('sound_on');
+
+        
         });
     </script>
 </body>

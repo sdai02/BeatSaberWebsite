@@ -443,20 +443,21 @@ button:hover{
         
 }
 
-.body .sondtrack .img_album .sound_on{
+.body .sondtrack .img_album span.sound_on{
     width: 24%;
+    display: block;
 }
 
-.body .sondtrack .img_album .sound_off{
+.body .sondtrack .img_album span{
     display: none;
 }
 
-.body .sondtrack .img_album .sound_on img{
+.body .sondtrack .img_album span.sound_on img{
     width: 100%;
     
 }
 
-.body .sondtrack .img_album .sound_on h2{
+.body .sondtrack .img_album span.sound_on h2{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -469,7 +470,7 @@ button:hover{
     color: #FFFFFF;
 }
 
-.body .sondtrack .img_album .sound_on p{
+.body .sondtrack .img_album span.sound_on p{
 
     font-family: 'Inter';
     font-style: normal;
@@ -483,15 +484,22 @@ button:hover{
     color: #FFFFFF;
 }
 
-.body .sondtrack .img_album .left{
+.body .sondtrack .img_album .left {
     position: absolute;
-    width: 100px;
-    height: 100px;
     left: 11%;
     top: 43%;
     transform: translate(-50%,-50%);
 
+}
+.body .sondtrack .img_album .left button{
+    width: 100px;
+    height: 100px;
+    border: 0px;
     background: rgba(0, 0, 0, 0.5);
+}
+
+.sondtrack .img_album .left button:hover{
+    background: #1d4864;
 }
 .body .sondtrack .img_album .left img{
     width: 100px;
@@ -500,19 +508,33 @@ button:hover{
 
 .body .sondtrack .img_album .right{
     position: absolute;
-    width: 100px;
-    height: 100px;
     left: 89%;
     top: 43%;
     transform: translate(-50%,-50%);
 
+    
+}
+
+.body .sondtrack .img_album .right button{
+    
+    width: 100px;
+    height: 100px;
+    border: 0px;
+
     background: rgba(0, 0, 0, 0.5);
+}
+
+.sondtrack .img_album .right button:hover{
+    background: #1d4864;
 }
 
 .body .sondtrack .img_album .right img{
     width: 100px;
     object-fit: cover;
 }
+
+/* music pack */
+
 
 .body .sondtrack h3{
     
@@ -537,7 +559,7 @@ button:hover{
     color: #FFFFFF;
 }
 
-.body .sondtrack .img_album{
+.body .sondtrack .img_album2{
     justify-content: space-between;
     display: flex;   
     padding: 61px 160px 0;
@@ -545,20 +567,21 @@ button:hover{
         
 }
 
-.body .sondtrack .img_album .sound_on1{
+.body .sondtrack .img_album2 span.sound_on2{
     width: 24%;
+    display: block;
 }
 
-.body .sondtrack .img_album .sound_off1{
+.body .sondtrack .img_album2 span{
     display: none;
 }
 
-.body .sondtrack .img_album .sound_on1 img{
+.body .sondtrack .img_album2 span.sound_on2 img{
     width: 100%;
     
 }
 
-.body .sondtrack .img_album .sound_on1 h2{
+.body .sondtrack .img_album2 .sound_on2 h2{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -571,7 +594,7 @@ button:hover{
     color: #FFFFFF;
 }
 
-.body .sondtrack .img_album .sound_on1 p{
+.body .sondtrack .img_album2 span.sound_on2 p{
 
     font-family: 'Inter';
     font-style: normal;
@@ -585,33 +608,49 @@ button:hover{
     color: #FFFFFF;
 }
 
-.body .sondtrack .img_album .left1{
+.body .sondtrack .img_album2 .left2{
     position: absolute;
-    width: 100px;
-    height: 100px;
     left: 11%;
     top: 43%;
     transform: translate(-50%,-50%);
+}
 
+.body .sondtrack .img_album2 .left2 button{
+    
+    width: 100px;
+    height: 100px;
+    border: 0px;
     background: rgba(0, 0, 0, 0.5);
 }
-.body .sondtrack .img_album .left1 img{
+.sondtrack .img_album2 .left2 button:hover{
+    background: #1d4864;
+}
+
+.body .sondtrack .img_album2 .left2 img{
     width: 100px;
     object-fit: cover;
 }
 
-.body .sondtrack .img_album .right1{
+.body .sondtrack .img_album2 .right2{
     position: absolute;
-    width: 100px;
-    height: 100px;
     left: 89%;
     top: 43%;
     transform: translate(-50%,-50%);
+}
 
+.body .sondtrack .img_album2 .right2 button{
+    
+    width: 100px;
+    height: 100px;
+    border: 0px;
     background: rgba(0, 0, 0, 0.5);
 }
 
-.body .sondtrack .img_album .right1 img{
+.sondtrack .img_album2 .right2 button:hover{
+    background: #1d4864;
+}
+
+.body .sondtrack .img_album2 .right2 img{
     width: 100px;
     object-fit: cover;
 }
@@ -871,6 +910,4 @@ button:hover{
 
  
     
- @media screen and (width: 1900) {
-    
- }
+ 
