@@ -120,10 +120,10 @@
             <h3>music_pack</h3>
 
             <div class="img_album2">
-                <div class="left2" id="left2">
+                <div class="left2" >
                    <button> <img src="chevron_left_FILL0_wght400_GRAD0_opsz48.png" alt="">  </button>
                 </div>
-                <div class="right2" id="right2">
+                <div class="right2" >
                     <button><img src="chevron_right_FILL0_wght400_GRAD0_opsz48.png" alt=""> </button>
                 </div>
 
@@ -174,36 +174,7 @@
                     <img src="https://beatsaber.com/images/music/music10.jpg" alt="">
                     <h2>BTS MUSIC PACK</h2>
                 </span>
-                <span>
-                    <img src="" alt="">
-                    <h2>LINKIN PARK MUSIC PACK</h2>
-                </span>
-                <span>
-                    <img src="" alt="">
-                    <h2>TIMBALAND MUSIC PACK</h2>
-                    
-                </span>
-                <span>
-                    <img src="" alt="">
-                    <h2>GREEN DAY MUSIC PACK</h2>
-                    
-                </span>
-                <span>
-                    <img src="" alt="">
-                    <h2>ROCKET LEAGUE X
-                        MONSTERCAT</h2>
-                    
-                </span>
-                <span>
-                    <img src="" alt="">
-                    <h2>PANIC! AT THE DISCO</h2>
-                    
-                </span>
-                <span>
-                    <img src="" alt="">
-                    <h2>MONSTERCAT MUSIC PACK VOL. 1</h2>
-                    
-                </span>
+                
                 
             </div>
 
@@ -359,9 +330,9 @@
         let $btnRight = document.querySelector(".body .sondtrack .img_album .right button");
         
 
-        let $album1 = document.querySelectorAll(".body .sondtrack .img_album .sound_on1 ");
-        let $btnLeft1 = document.querySelector(".body .sondtrack .img_album .left1 button");
-        let $btnRight1 = document.querySelector(".body .sondtrack .img_album .right1 button");
+        let $album1 = document.querySelectorAll(".body .sondtrack .img_album2 span ");
+        let $btnLeft1 = document.querySelector(".body .sondtrack .img_album2 .left2 button");
+        let $btnRight1 = document.querySelector(".body .sondtrack .img_album2 .right2 button");
         
 
         let $switch = 1;
@@ -383,22 +354,119 @@
         
          
 
-        $btnLeft.addEventListener('click', function(){
-            $album[index].classList.add('sound_off');
-            $album[index1].classList.add('sound_off');
-            $album[index2].classList.add('sound_off');
+        $btnRight.addEventListener('click', function(){
+            $album[index].classList.remove('sound_on');
+            $album[index1].classList.remove('sound_on');
+            $album[Index2].classList.remove('sound_on');
 
             index += 1;
             index1 += 1;
-            index2 += 1;
+            Index2 += 1;
 
-            if (index > ($album.length - 1)) {
+            if (index > ($album.length -1)) {
                 index = 0;
+            }
+            
+            
+            if (index1 > ($album.length -1)) {
+                index1 = 0;
+            }
+            
+            
+            if (Index2 > ($album.length -1)) {
+                Index2 = 0;
             }
 
             $album[index].classList.add('sound_on');
-
+            $album[index1].classList.add('sound_on');
+            $album[Index2].classList.add('sound_on');
         
+        });
+
+        $btnLeft.addEventListener('click', function () {
+            $album[index].classList.remove('sound_on');
+            $album[index1].classList.remove('sound_on');
+            $album[Index2].classList.remove('sound_on');
+        
+            index -= 1;
+            index1 -= 1;
+            index2 -= 1;
+            if (index < 0) {
+                index = $album.length - 1;
+            }
+            if (index1 < 0) {
+                index1 = $album.length - 1;
+            }
+            if (Index2 < 0) {
+                Index2 = $album.length - 1;
+            }
+
+            $album[index].classList.add('sound_on');
+            $album[index1].classList.add('sound_on');
+            $album[Index2].classList.add('sound_on');
+        });
+
+
+
+
+
+
+
+
+        let Index = 0;
+        let Index1 = 1;
+        let Index2 = 2;
+
+        $btnRight1.addEventListener('click', function(){
+            $album1[Index].classList.remove('sound_on2');
+            $album1[Index1].classList.remove('sound_on2');
+            $album1[Index2].classList.remove('sound_on2');
+
+            Index += 1;
+            Index1 += 1;
+            Index2 += 1;
+
+            if (Index > ($album1.length -1)) {
+                Index = 0;
+            }
+            
+            
+            if (Index1 > ($album1.length -1)) {
+                Index1 = 0;
+            }
+            
+            
+            if (Index2 > ($album1.length -1)) {
+                Index2 = 0;
+            }
+
+            $album1[Index].classList.add('sound_on2');
+            $album1[Index1].classList.add('sound_on2');
+            $album1[Index2].classList.add('sound_on2');
+        
+        });
+
+        $btnLeft1.addEventListener('click', function () {
+            $album1[Index].classList.remove('sound_on2');
+            $album1[Index1].classList.remove('sound_on2');
+            $album1[Index2].classList.remove('sound_on2');
+        
+            Index -= 1;
+            Index1 -= 1;
+            Index2 -= 1;
+            if (Index < 0) {
+                Index = $album.length - 1;
+            }
+            if (Index1 < 0) {
+                Index1 = $album.length - 1;
+            }
+            if (Index2 < 0) {
+                Index2 = $album.length - 1;
+            }
+
+            $album1[Index].classList.add('sound_on2');
+            $album1[Index1].classList.add('sound_on2');
+            $album1[Index2].classList.add('sound_on2');
         });
     </script>
 </body>

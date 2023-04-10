@@ -496,7 +496,10 @@ button:hover{
     height: 100px;
     border: 0px;
     background: rgba(0, 0, 0, 0.5);
+    display: block;
 }
+
+
 
 .sondtrack .img_album .left button:hover{
     background: #1d4864;
@@ -516,7 +519,7 @@ button:hover{
 }
 
 .body .sondtrack .img_album .right button{
-    
+    display: block;
     width: 100px;
     height: 100px;
     border: 0px;
@@ -581,7 +584,7 @@ button:hover{
     
 }
 
-.body .sondtrack .img_album2 .sound_on2 h2{
+.body .sondtrack .img_album2 span.sound_on2 h2{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
