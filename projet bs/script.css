@@ -433,28 +433,7 @@ button:hover{
 
 } 
 
-.body .sondtrack h3{
-    
-    padding: 199px 0 44px;
-    height: 108px;
-    margin: 0 auto;
-    display: block;
-    
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 700;
-    font-size: 84px;
-    line-height: 54px;
-    /* or 64% */
-    
-    
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-    
-    color: #FFFFFF;
-}
+
 
 .body .sondtrack .img_album{
     justify-content: space-between;
@@ -531,6 +510,108 @@ button:hover{
 }
 
 .body .sondtrack .img_album .right img{
+    width: 100px;
+    object-fit: cover;
+}
+
+.body .sondtrack h3{
+    
+    padding: 199px 0 44px;
+    height: 108px;
+    margin: 0 auto;
+    display: block;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 54px;
+    /* or 64% */
+    
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.body .sondtrack .img_album{
+    justify-content: space-between;
+    display: flex;   
+    padding: 61px 160px 0;
+    position: relative;
+        
+}
+
+.body .sondtrack .img_album .sound_on1{
+    width: 24%;
+}
+
+.body .sondtrack .img_album .sound_off1{
+    display: none;
+}
+
+.body .sondtrack .img_album .sound_on1 img{
+    width: 100%;
+    
+}
+
+.body .sondtrack .img_album .sound_on1 h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 69.8%;
+    padding-top: 80px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.body .sondtrack .img_album .sound_on1 p{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 69.8%;
+    padding-top: 30px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.body .sondtrack .img_album .left1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 11%;
+    top: 43%;
+    transform: translate(-50%,-50%);
+
+    background: rgba(0, 0, 0, 0.5);
+}
+.body .sondtrack .img_album .left1 img{
+    width: 100px;
+    object-fit: cover;
+}
+
+.body .sondtrack .img_album .right1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 89%;
+    top: 43%;
+    transform: translate(-50%,-50%);
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.body .sondtrack .img_album .right1 img{
     width: 100px;
     object-fit: cover;
 }
