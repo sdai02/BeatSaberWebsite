@@ -60,7 +60,7 @@ header span {
     display: none;
 }
 
-header .ON{
+header span.ON{
     
     position: absolute;
     background: rgba(19, 35, 48, 1);;
@@ -68,13 +68,13 @@ header .ON{
     right: -12%;
     top: 320%;
     width: 23%;
-  
+    display: block;
 }
-header .ON a {
+header span.ON a {
     display: inline;
 }
 
-header .ON a {
+header span.ON a {
     
     font-family: 'Glory';
     font-style: normal;

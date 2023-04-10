@@ -27,10 +27,10 @@
             <a href="#" class="c">faq</a>
             <a href="#" class="d"> contact us</a>
             <a href="#" class="e"> merch store</a>
-            <a href="#" class="menu"><img src="menu.png" alt=""></a>
+            <a href="#" id="btnpanel" class="menu"><img src="menu.png" alt=""></a>
             
         </nav>
-        <span>
+        <span id="panel_menu">
             <a href="#" class="a">music</a>
             <a href="#" class="b">careers</a>
             <a href="#" class="c">faq</a>
@@ -343,6 +343,13 @@
         let $btnLeft1 = document.querySelector(".body .sondtrack .img_album2 .left2 button");
         let $btnRight1 = document.querySelector(".body .sondtrack .img_album2 .right2 button");
         
+        let $Mpanel = document.getElementById("panel_menu");
+        let $btnPanel = document.getElementById("btnpanel");
+
+
+        $btnPanel.addEventListener('click', function(){
+            $Mpanel.classList.toggle("ON");
+        });
 
         let $switch = 1;
 
