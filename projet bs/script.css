@@ -7,9 +7,8 @@
 
 header{
     width: 100%;
+    height: 7%;
     
-
-
     background: rgba(19, 35, 48, 0.9);
     
     position: fixed;
@@ -20,14 +19,18 @@ header{
 header .logo{
     width: 11%;
     padding-left: 10px;
+    position: relative;
+    
 }
 
 header .logo img{
     width: 100%;
     padding-top: 12px;
+    position: absolute;
+    
 }
 
-header nav {
+header nav .nav{
     
     font-family: 'Glory';
     font-style: normal;
@@ -36,22 +39,30 @@ header nav {
     line-height: 54px;
     /* or 186% */
 
-    
+    margin: 0 auto;
+    display: block;
     align-items: center;
     text-align: center;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    display: flex;
+    
     
     
 }
 
+header nav {
+    position: relative;
+}
 
-header nav .menu{
-    display: flex;
+header nav  .menu{
+    display: block;
     max-width: 90px;
+    position: absolute;
+    right: 0%;
+    top: 0%;
 }
 header nav .menu img{
+    display: none;
     width: 100%;
 }
 
@@ -63,7 +74,7 @@ header span {
 header span.ON{
     
     position: absolute;
-    background: rgba(19, 35, 48, 1);;
+    background: rgba(19, 35, 48, 1);
     transform: translate(-50%,-50%);
     right: -12%;
     top: 320%;
@@ -955,6 +966,98 @@ button:hover{
     height: 16px;
 }
 
- 
+@media screen and (max-width: 1800px) {
+    header nav .menu img{
+        display: block;
+    }
+    header nav .a{
+        display: none;
+    }
+    header span.ON .b {
+        display: none;
+    }
+
+    header span.ON .c {
+        display: none;
+    }
+
+    header span.ON .d {
+        display: none;
+    }
+    header span.ON .e {
+        display: none;
+    }
+
+
     
- 
+}
+
+@media screen and (max-width: 1200px){
+    header nav .b{
+        display: none;
+    }
+    
+
+    header span.ON .c {
+        display: none;
+    }
+
+    header span.ON .d {
+        display: none;
+    }
+    header span.ON .e {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 970px){
+    header nav .c{
+        display:none;
+    }
+
+    header span.ON .c {
+        display: block;
+    }
+    header span.ON .d {
+        display: none;
+    }
+    header span.ON .e {
+        display: none;
+    }
+
+}
+    
+@media screen and (max-width: 770px){
+    header nav .d{
+        display:none;
+    }
+   
+    header span.ON .e {
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width: 400px){
+    header .logo{
+        width: 40%;
+    }
+    header nav .e{
+        display:none;
+    }
+
+    
+    header nav .menu img{
+        width: 80%;
+        
+    }
+    .banner button{
+        font-size: 40%;
+    }
+
+    header span.ON a{
+        display: none;
+    }
+}
