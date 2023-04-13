@@ -90,8 +90,8 @@
 
             <div class="img_album"> 
 
-                <div class="left">
-                    <button><img src="chevron_left_FILL0_wght400_GRAD0_opsz48.png" alt=""> </button> 
+                <div class="left" >
+                    <button style="display: none;"><img src="chevron_left_FILL0_wght400_GRAD0_opsz48.png" alt=""> </button> 
                 </div>
                 <div class="right">
                     <button><img src="chevron_right_FILL0_wght400_GRAD0_opsz48.png" alt=""> </button>
@@ -132,7 +132,7 @@
 
             <div class="img_album2">
                 <div class="left2" >
-                   <button> <img src="chevron_left_FILL0_wght400_GRAD0_opsz48.png" alt="">  </button>
+                   <button style="display: none;"> <img src="chevron_left_FILL0_wght400_GRAD0_opsz48.png" alt="">  </button>
                 </div>
                 <div class="right2" >
                     <button><img src="chevron_right_FILL0_wght400_GRAD0_opsz48.png" alt=""> </button>
@@ -373,14 +373,17 @@
          
 
         $btnRight.addEventListener('click', function(){
+            $btnRight.style.display='block';
+            $btnLeft.style.display='block';
+           if(index != 2){
             $album[index].classList.remove('sound_on');
             $album[index1].classList.remove('sound_on');
-            $album[Index2].classList.remove('sound_on');
+            $album[index2].classList.remove('sound_on');
 
             index += 1;
             index1 += 1;
-            Index2 += 1;
-
+            index2 += 1;
+            
             if (index > ($album.length -1)) {
                 index = 0;
             }
@@ -391,20 +394,29 @@
             }
             
             
-            if (Index2 > ($album.length -1)) {
-                Index2 = 0;
-            }
+            if (index2 > ($album.length -1)) {
+                index2 = 0;}
+            
 
             $album[index].classList.add('sound_on');
             $album[index1].classList.add('sound_on');
-            $album[Index2].classList.add('sound_on');
-        
+            $album[index2].classList.add('sound_on');}
+            else{
+                $btnRight.style.display='none';
+                
+                $btnLeft.style.display='block';
+            }
         });
+        
+        
 
         $btnLeft.addEventListener('click', function () {
+            $btnRight.style.display='block';
+            $btnLeft.style.display='block';
+            if(index != 0){
             $album[index].classList.remove('sound_on');
             $album[index1].classList.remove('sound_on');
-            $album[Index2].classList.remove('sound_on');
+            $album[index2].classList.remove('sound_on');
         
             index -= 1;
             index1 -= 1;
@@ -415,13 +427,14 @@
             if (index1 < 0) {
                 index1 = $album.length - 1;
             }
-            if (Index2 < 0) {
-                Index2 = $album.length - 1;
+            if (index2 < 0) {
+                index2 = $album.length - 1;
             }
 
             $album[index].classList.add('sound_on');
             $album[index1].classList.add('sound_on');
-            $album[Index2].classList.add('sound_on');
+            $album[index2].classList.add('sound_on');}
+            else{$btnLeft.style.display='none';}
         });
 
 
@@ -436,6 +449,10 @@
         let Index2 = 2;
 
         $btnRight1.addEventListener('click', function(){
+
+            $btnRight1.style.display='block';
+            $btnLeft1.style.display='block';
+           if(Index != 2){
             $album1[Index].classList.remove('sound_on2');
             $album1[Index1].classList.remove('sound_on2');
             $album1[Index2].classList.remove('sound_on2');
@@ -460,11 +477,19 @@
 
             $album1[Index].classList.add('sound_on2');
             $album1[Index1].classList.add('sound_on2');
-            $album1[Index2].classList.add('sound_on2');
+            $album1[Index2].classList.add('sound_on2');}else{
+                $btnRight1.style.display='none';
+                
+                $btnLeft1.style.display='block';
+            }
         
         });
 
         $btnLeft1.addEventListener('click', function () {
+            $btnRight1.style.display='block';
+            $btnLeft1.style.display='block';
+           if(Index != 0){
+            
             $album1[Index].classList.remove('sound_on2');
             $album1[Index1].classList.remove('sound_on2');
             $album1[Index2].classList.remove('sound_on2');
@@ -484,7 +509,7 @@
 
             $album1[Index].classList.add('sound_on2');
             $album1[Index1].classList.add('sound_on2');
-            $album1[Index2].classList.add('sound_on2');
+            $album1[Index2].classList.add('sound_on2');}else{$btnLeft1.style.display='none';}
         });
     </script>
 </body>
