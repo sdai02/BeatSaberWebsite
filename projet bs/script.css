@@ -539,6 +539,51 @@ button:hover{
     color: #FFFFFF;
 }
 
+
+
+.body .sondtrack .img_album span.sound_on1{
+    width: 24%;
+    display: block;
+}
+
+.body .sondtrack .img_album span{
+    display: none;
+}
+
+.body .sondtrack .img_album span.sound_on1 img{
+    width: 100%;
+    
+}
+
+.body .sondtrack .img_album span.sound_on1 h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 69.8%;
+    padding-top: 80px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.body .sondtrack .img_album span.sound_on1 p{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 69.8%;
+    padding-top: 30px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+
 .body .sondtrack .img_album .left {
     position: absolute;
     left: 11%;
@@ -625,15 +670,15 @@ button:hover{
         
 }
 
-.body .sondtrack .img_album2 span.sound_on2{
-    width: 24%;
-    display: block;
-}
-
 .body .sondtrack .img_album2 span{
     display: none;
 }
 
+
+.body .sondtrack .img_album2 span.sound_on2{
+    width: 24%;
+    display: block;
+}
 .body .sondtrack .img_album2 span.sound_on2 img{
     width: 100%;
     
@@ -665,6 +710,47 @@ button:hover{
     
     color: #FFFFFF;
 }
+
+.body .sondtrack .img_album2 span.sound_on3{
+    width: 24%;
+    display: block;
+}
+.body .sondtrack .img_album2 span.sound_on3 img{
+    width: 100%;
+    
+}
+
+.body .sondtrack .img_album2 span.sound_on3 h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 69.8%;
+    padding-top: 80px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.body .sondtrack .img_album2 span.sound_on3 p{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 69.8%;
+    padding-top: 30px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+
+
+
 
 .body .sondtrack .img_album2 .left2{
     position: absolute;
@@ -1040,24 +1126,38 @@ button:hover{
     
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 300px){
+
+    header{
+        height: 5%;
+    }
+
+
     header .logo{
-        width: 40%;
+        width: 30%;
     }
     header nav .e{
         display:none;
     }
 
-    
-    header nav .menu img{
-        width: 80%;
+    header nav .menu {
         
+        max-width: 50px;
     }
+
     .banner button{
         font-size: 40%;
     }
 
     header span.ON a{
+        display: none;
+    }
+
+    .body .sondtrack .img_album span.sound_on1{
+        display: none;
+    }
+
+    .body .sondtrack .img_album2 span.sound_on3{
         display: none;
     }
 }

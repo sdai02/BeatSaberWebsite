@@ -102,12 +102,12 @@
                     <h2>BEAT SABER OST VOL. 1</h2>
                     <p>LISTEN NOW</p>
                 </span>
-                <span class="sound_on">
+                <span class="sound_on1">
                     <img src="OST_Vol_2.jpg" alt="">
                     <h2>BEAT SABER OST VOL. 2</h2>
                     <p>LISTEN NOW</p>
                 </span>
-                <span class="sound_on">
+                <span class="sound_on1">
                     <img src="https://beatsaber.com/images/music/OST3.jpg" alt="">
                     <h2>BEAT SABER OST VOL. 3</h2>
                     <p>LISTEN NOW</p>
@@ -144,11 +144,11 @@
                         PACK</h2>
                     
                 </span>
-                <span class="sound_on2">
+                <span class="sound_on3">
                     <img src="https://beatsaber.com/images/music/music21.jpg" alt="">
                     <h2>ROCK MIXTAPE</h2>
                 </span>
-                <span class="sound_on2">
+                <span class="sound_on3">
                     <img src="https://beatsaber.com/images/music/music20.jpg" alt="">
                     <h2>THE WEEKND MUSIC PACK</h2>
                     
@@ -377,8 +377,8 @@
             $btnLeft.style.display='block';
            if(index != 2){
             $album[index].classList.remove('sound_on');
-            $album[index1].classList.remove('sound_on');
-            $album[index2].classList.remove('sound_on');
+            $album[index1].classList.remove('sound_on1');
+            $album[index2].classList.remove('sound_on1');
 
             index += 1;
             index1 += 1;
@@ -399,8 +399,8 @@
             
 
             $album[index].classList.add('sound_on');
-            $album[index1].classList.add('sound_on');
-            $album[index2].classList.add('sound_on');}
+            $album[index1].classList.add('sound_on1');
+            $album[index2].classList.add('sound_on1');}
             else{
                 $btnRight.style.display='none';
                 
@@ -415,8 +415,8 @@
             $btnLeft.style.display='block';
             if(index != 0){
             $album[index].classList.remove('sound_on');
-            $album[index1].classList.remove('sound_on');
-            $album[index2].classList.remove('sound_on');
+            $album[index1].classList.remove('sound_on1');
+            $album[index2].classList.remove('sound_on1');
         
             index -= 1;
             index1 -= 1;
@@ -432,8 +432,8 @@
             }
 
             $album[index].classList.add('sound_on');
-            $album[index1].classList.add('sound_on');
-            $album[index2].classList.add('sound_on');}
+            $album[index1].classList.add('sound_on1');
+            $album[index2].classList.add('sound_on1');}
             else{$btnLeft.style.display='none';}
         });
 
@@ -454,8 +454,8 @@
             $btnLeft1.style.display='block';
            if(Index != 2){
             $album1[Index].classList.remove('sound_on2');
-            $album1[Index1].classList.remove('sound_on2');
-            $album1[Index2].classList.remove('sound_on2');
+            $album1[Index1].classList.remove('sound_on3');
+            $album1[Index2].classList.remove('sound_on3');
 
             Index += 1;
             Index1 += 1;
@@ -476,8 +476,8 @@
             }
 
             $album1[Index].classList.add('sound_on2');
-            $album1[Index1].classList.add('sound_on2');
-            $album1[Index2].classList.add('sound_on2');}else{
+            $album1[Index1].classList.add('sound_on3');
+            $album1[Index2].classList.add('sound_on3');}else{
                 $btnRight1.style.display='none';
                 
                 $btnLeft1.style.display='block';
@@ -491,8 +491,8 @@
            if(Index != 0){
             
             $album1[Index].classList.remove('sound_on2');
-            $album1[Index1].classList.remove('sound_on2');
-            $album1[Index2].classList.remove('sound_on2');
+            $album1[Index1].classList.remove('sound_on3');
+            $album1[Index2].classList.remove('sound_on3');
         
             Index -= 1;
             Index1 -= 1;
@@ -508,8 +508,9 @@
             }
 
             $album1[Index].classList.add('sound_on2');
-            $album1[Index1].classList.add('sound_on2');
-            $album1[Index2].classList.add('sound_on2');}else{$btnLeft1.style.display='none';}
+            $album1[Index1].classList.add('sound_on3');
+            $album1[Index2].classList.add('sound_on3');
+            }else{$btnLeft1.style.display='none';}
         });
     </script>
 </body>
