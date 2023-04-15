@@ -19,14 +19,14 @@ header{
 header .logo{
     width: 11%;
     padding-left: 10px;
-    position: relative;
+    padding-top: 12px;
     
 }
 
 header .logo img{
     width: 100%;
-    padding-top: 12px;
-    position: absolute;
+    
+    
     
 }
 
@@ -39,27 +39,27 @@ header nav .nav{
     line-height: 54px;
     /* or 186% */
 
-    margin: 0 auto;
+    margin: auto;
     display: block;
     align-items: center;
     text-align: center;
     letter-spacing: 0.09em;
     text-transform: uppercase;
+    padding-top: 10px;
     
     
     
 }
 
 header nav {
-    position: relative;
+    display: flex;
 }
 
 header nav  .menu{
     display: block;
-    max-width: 90px;
-    position: absolute;
-    right: 0%;
-    top: 0%;
+    width: 90px;
+    
+    
 }
 header nav .menu img{
     display: none;
@@ -73,14 +73,15 @@ header span {
 
 header span.ON{
     
-    position: absolute;
-    background: rgba(19, 35, 48, 1);
+    
+    background: rgba(19, 35, 48, 0.9);
     transform: translate(-50%,-50%);
-    right: -12%;
-    top: 320%;
+    
     width: 23%;
     display: block;
 }
+
+
 header span.ON a {
     display: inline;
 }
@@ -106,7 +107,7 @@ header span.ON a {
 
 header nav a{
     text-decoration: none;
-    padding-right: 2.5%;
+    padding: 0 12px;
     color: #FFFFFF;
     transform: rotate(-0.07deg);
     align-items: center;
@@ -184,21 +185,31 @@ button:hover{
     
 }
 .buy_on{
-    position: relative;
-    
-    height: 590px;
-    
     
     background: #2980C3;
     background-blend-mode: darken;
 }
 
 .buy_on .texte{
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 29%;
-    top: 51%;
+    
     color: #FFFFFF;
+}
+
+
+.buy_on .texte h1{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 113px;
+    line-height: 0px;
+    
+    
+    
+    align-items: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    padding: 100px 0 55px;
+    text-align: center;
 }
 
 .buy_on .texte p{
@@ -208,62 +219,56 @@ button:hover{
     font-weight: 400;
     font-size: 34px;
     line-height: 49px;
-    /* or 144% */
     
-    display: flex;
+    
+    
     align-items: center;
     text-transform: capitalize;
-    
+    text-align: center;
     
 }
 
-.buy_on .texte h1{
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 700;
-    font-size: 113px;
-    line-height: 0px;
-    /* or 0% */
-    
+
+.buy_on .btn {
     display: flex;
-    align-items: center;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    padding-bottom: 55px;
+    justify-content: space-around;
+    padding: 50px 0 50px;
+    flex-wrap: wrap;
 }
+
 
 
 /* steam  */
 
 .buy_on .steam img{
-    position: absolute;
-    width: 70px;
-    height: 72px;
-    left: 83%;
-    top: 46%;
-    transform: translate(-50%,-50%);
+    
+    width: 100%;
+}
+
+.buy_on .steam span{
+    width: 50px;
+    margin: 20px 22px;
 }
 
 
-.buy_on .steam button{
+.buy_on .steam {
     box-sizing: border-box;
 
-    position: absolute;
+    
     width: 21%;
-    height: 18%;
-    left: 61%;
-    top: 10%;
+    
+    display: flex;
 
     border: 6px solid #FFFFFF;
     border-radius: 60px;
     background: rgba(217, 217, 217, 0);
 }
 
-
-.buy_on .steam button {
+.buy_on .steam  p{
+    margin: 8px 0;
     
-    margin: 0 auto;
-    display: block;
+    display: flex;
+    margin-left: 28px;
     
     font-family: 'Hind Madurai';
     font-style: normal;
@@ -273,23 +278,25 @@ button:hover{
     color: #FFFFFF;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    
+        align-items: center;
 }
-.steam button:hover{
+
+
+.steam:hover{
     background: #1d4864;
 } 
 
 /* oculus */
 
-.buy_on .oculus button{
+.buy_on .oculus {
 
     box-sizing: border-box;
 
-    position: absolute;
+    
     width: 21%;
-    height: 18%;
-    left: 58%;
-    top: 30%;
+    
+    display: flex;
+
     
     border: 6px solid #FFFFFF;
     border-radius: 60px;
@@ -297,17 +304,17 @@ button:hover{
 }
 
 .buy_on .oculus img{
-    position: absolute;
-    width: 67px;
-    height: 62px;
-    left: 83%;
-    top: 46%;
-    transform: translate(-50%,-50%);
+    
+    width: 100%;
+    
 }
 
-.buy_on .oculus button{
+.buy_on .oculus span{
+    width: 50px;
+    margin: 19px auto;
+}
 
-    
+.buy_on .oculus p{
     font-family: 'Hind Madurai';
     font-style: normal;
     font-weight: 700;
@@ -318,23 +325,23 @@ button:hover{
     align-items: center;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    padding-left: 70px;
+    padding-left: 9px;
     color: #000000;
+
 }
 
-.oculus button:hover{
+
+
+.oculus:hover{
     background: #1d4864;
 } 
 
 
 /* humble_bundle */
 
-.buy_on .humble_bundle button{
-    position: absolute;
+.buy_on .humble_bundle {
+    
     width: 21%;
-    height: 18%;
-    left: 54%;
-    top: 50%;
 
     border: 6px solid #FFFFFF;
     background: rgba(255, 255, 255, 0);
@@ -343,21 +350,19 @@ button:hover{
 }
 
 .buy_on .humble_bundle img{
-    position: absolute;
-    width: 53px;
-    height: 53px;
-    left: 83%;
-    top: 46%;
-    transform: translate(-50%,-50%);
+    
+    width: 100%;
     
 }
 
-.buy_on .humble_bundle button{
-    font-family: 'Hind Madurai';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 34px;
-    line-height: 40px;
+.buy_on .humble_bundle span{
+    width: 50px;
+    margin: 19px auto;
+}
+
+
+.buy_on .humble_bundle {
+    
     
     
     display: flex;
@@ -366,23 +371,27 @@ button:hover{
     text-transform: uppercase;
     padding-left: 5%;
     
+    
+}
+
+.buy_on .humble_bundle p{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
     color: #D0011B;
 }
 
-.humble_bundle button:hover{
+.humble_bundle:hover{
     background: #1d4864;
 } 
 
 /* playstation_store */
 
-.buy_on .playstation_store button{
+.buy_on .playstation_store {
     box-sizing: border-box;
-
-    position: absolute;
     width: 21%;
-    height: 18%;
-    left: 50%;
-    top: 71%;
     
     border: 6px solid #FFFFFF;
     background: rgba(255, 255, 255, 0);
@@ -391,21 +400,21 @@ button:hover{
 }
 
 .buy_on .playstation_store img{
-    position: absolute;
-    width: 60px;
-    height: 58px;
-    left: 83%;
-    top: 46%;
-    transform: translate(-50%,-50%);
-    
+    width: 100%;
 }
 
-.buy_on .playstation_store button{
+.buy_on .playstation_store span{
+    width: 50px;
+    margin: 10px auto;
+}
+
+
+.buy_on .playstation_store {
 
     font-family: 'Hind Madurai';
     font-style: normal;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 25px;
     line-height: 40px;
     
     
@@ -418,7 +427,7 @@ button:hover{
     color: #000080;
 }
 
-.playstation_store button:hover{
+.playstation_store:hover{
     background: #1d4864;
 } 
 .rectangle{
@@ -434,8 +443,7 @@ button:hover{
 
 .body{
     height: 2851px;
-    left: 0px;
-    top: 1553px;
+    
 
     background: linear-gradient(270deg, #1C3241 24.39%, #354865 65.92%);
 
@@ -611,7 +619,7 @@ button:hover{
 
 .body .sondtrack .img_album .right{
     position: absolute;
-    left: 89%;
+    left: 85%;
     top: 43%;
     transform: translate(-50%,-50%);
 
@@ -777,7 +785,7 @@ button:hover{
 
 .body .sondtrack .img_album2 .right2{
     position: absolute;
-    left: 89%;
+    left: 85%;
     top: 43%;
     transform: translate(-50%,-50%);
 }
@@ -1003,9 +1011,6 @@ button:hover{
 
 .tAndS{
     
-    height: 116px;
-    
-    
     background: #11161D;
 
 }
@@ -1052,7 +1057,7 @@ button:hover{
     height: 16px;
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (max-width: 1800px) {
     header nav .menu img{
         display: block;
     }
@@ -1074,7 +1079,9 @@ button:hover{
         display: none;
     }
 
-
+    header span.ON .a {
+        display: block;
+    }
     
 }
 
@@ -1082,7 +1089,9 @@ button:hover{
     header nav .b{
         display: none;
     }
-    
+    header span.ON .b {
+        display: block;
+    }
 
     header span.ON .c {
         display: none;
@@ -1112,9 +1121,19 @@ button:hover{
         display: none;
     }
 
+
+    header nav .menu img{
+        display: block;
+    }
+    header span.ON{
+        top: 203%;
+    }
+
 }
     
 @media screen and (max-width: 770px){
+
+   
     header nav .d{
         display:none;
     }
@@ -1122,7 +1141,16 @@ button:hover{
     header span.ON .e {
         display: none;
     }
+    header span.ON .d {
+        display: block;
+    }
 
+    header nav .menu img{
+        display: block;
+    }
+    header span.ON{
+        top: 300%;
+    }
     
 }
 
@@ -1136,6 +1164,8 @@ button:hover{
     header .logo{
         width: 30%;
     }
+
+
     header nav .e{
         display:none;
     }
@@ -1146,15 +1176,92 @@ button:hover{
 
     header nav .menu {
         
-        max-width: 50px;
+        width: 62px;
+    }
+
+    .banner .background{
+        width: 393px;
+        height: 287px;
     }
 
     .banner button{
-        font-size: 40%;
+        font-size: 135%;
+        width: 51%;
+        height: 26%;
+    }
+
+    .banner .logo{
+        width: 95%;
     }
 
     header nav .menu img{
         display: block;
+    }
+
+    header span.ON{
+        top: 176px;
+        width: 100%;
+        left: 49.9%;
+    }
+
+    header span.ON .a {
+        display: block;
+    }
+
+    header span.ON .b {
+        display: block;
+    }
+
+    header span.ON .c {
+        display: block;
+    }
+
+    header span.ON .d {
+        display: block;
+    }
+
+    header span.ON .e {
+        display: block;
+    }
+
+    .buy_on .texte h1{
+        font-size: 42px;
+    }
+
+    .buy_on .texte p{
+        font-size: 13px;
+    }
+
+
+    .buy_on .steam{
+        width: 84%;
+        margin: 5px;
+    }
+
+
+    .buy_on .oculus{
+        width: 84%;
+        margin: 5px;
+    }
+
+
+    .buy_on .humble_bundle{
+        width: 84%;
+        margin: 5px;
+    }
+
+    .buy_on .playstation_store{
+        width: 84%;
+        margin: 5px;
+    }
+
+
+    .body {
+        height: 1714px;
+    }
+
+    .body .presentation iframe {
+        height: 308px;
     }
 
     .body .sondtrack .img_album {
@@ -1179,13 +1286,25 @@ button:hover{
     }
 
     body .sondtrack .img_album span.sound_on img {
-        max-width: 340px;
+        max-width: 363px;
         
     }
 
     .body .sondtrack .img_album span.sound_on {
         width: 90%;
     }
+
+    .body .sondtrack .img_album span.sound_on h2 {
+        
+        font-size: 20px;
+    }
+
+    .body .sondtrack .img_album span.sound_on p {
+       
+        font-size: 16px;
+    }
+
+
     .body .sondtrack .img_album span.sound_on1{
         display: none;
     }
@@ -1194,7 +1313,67 @@ button:hover{
         display: none;
     }
 
+    .body .sondtrack .img_album2 span.sound_on2 {
+        width: 90%;
+    }
+
+    body .sondtrack .img_album2 span.sound_on2 img {
+        max-width: 363px;
+        
+    }
+
+    .body .sondtrack .img_album2 span.sound_on2 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .body .sondtrack .img_album2 {
+        justify-content: center;
+        display: flex;
+        padding: 0 0  0;
+    }
+
+    .body .sondtrack h3{
+        font-size: 36px;
+        padding: 28px 0;
+
+    }
+
+    .body .sondtrack .img_album2 span.sound_on2 h2 {
+        
+        font-size: 20px;
+    }
+
+    .awards .colone {
+        padding: 0 47px 54px;
+        display: block;
+    }   
 
 
+    .awards {
+        height: 100%;
+    }
+
+    .contact h1 {
+        font-size: 40px;
+    }
+
+    .contact p {
+        font-size: 14px;
+    }
+
+
+    .tAndS span p {
+        padding: 10px;
+    }
+
+    .tAndS span {
+        display: block;
+        padding-top: 31px;
+    }
+
+    .buy_on .steam button{
+        transform: translate(-50%, -50%);
+    }
 
 }
