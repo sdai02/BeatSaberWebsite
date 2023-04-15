@@ -268,7 +268,7 @@ button:hover{
     margin: 8px 0;
     
     display: flex;
-    margin-left: 28px;
+    margin-left: 8px;
     
     font-family: 'Hind Madurai';
     font-style: normal;
@@ -411,20 +411,24 @@ button:hover{
 
 .buy_on .playstation_store {
 
-    font-family: 'Hind Madurai';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 40px;
-    
     
     display: flex;
     align-items: center;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    padding: 13px 36px 0;
+    padding: 13px 15px 0;
     
+    
+}
+
+.buy_on .playstation_store p{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
     color: #000080;
+
 }
 
 .playstation_store:hover{
@@ -1049,7 +1053,7 @@ button:hover{
     
     text-transform: uppercase;
     
-    color: #FFFFFF;
+    color: gray;
     
 }
 .tAndS img{
