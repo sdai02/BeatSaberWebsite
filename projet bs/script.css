@@ -471,7 +471,7 @@ button:hover{
 
 .body .sondtrack h1{
     
-    padding: 121px ;
+    padding: 121px 0;
     margin: 0 auto;
     display: block;
     
@@ -1052,7 +1052,7 @@ button:hover{
     height: 16px;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (min-width: 1800px) {
     header nav .menu img{
         display: block;
     }
@@ -1126,7 +1126,7 @@ button:hover{
     
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 400px){
 
     header{
         height: 5%;
@@ -1140,6 +1140,10 @@ button:hover{
         display:none;
     }
 
+    header nav .a{
+        display:none;
+    }
+
     header nav .menu {
         
         max-width: 50px;
@@ -1149,10 +1153,39 @@ button:hover{
         font-size: 40%;
     }
 
-    header span.ON a{
-        display: none;
+    header nav .menu img{
+        display: block;
     }
 
+    .body .sondtrack .img_album {
+        justify-content: center;
+        display: flex;
+        padding: 0 0  0;
+    }
+
+    .body .presentation h1{
+        font-size: 36px;
+        padding: 28px 0;
+    }
+    .body .sondtrack h1{
+        font-size: 36px;
+        padding: 28px 0;
+
+    }
+
+    .body .sondtrack .img_album span.sound_on {
+        display: block;
+        margin: 0 auto;
+    }
+
+    body .sondtrack .img_album span.sound_on img {
+        max-width: 340px;
+        
+    }
+
+    .body .sondtrack .img_album span.sound_on {
+        width: 90%;
+    }
     .body .sondtrack .img_album span.sound_on1{
         display: none;
     }
@@ -1160,4 +1193,8 @@ button:hover{
     .body .sondtrack .img_album2 span.sound_on3{
         display: none;
     }
+
+
+
+
 }
