@@ -1,3 +1,6 @@
+
+
+
 @media screen and (max-width: 1800px) {
     header nav .menu img{
         display: block;
@@ -23,8 +26,51 @@
     header span.ON .a {
         display: block;
     }
+
+    header span.ON{
+       
+        width: 18%;
+        position: absolute;
+        left: 91%;
+        top: 142%;
+    }
+    
+
+
+    .buy_on .steam{
+        width: 16%;
+    }
+    .buy_on .oculus{
+        width: 16%;
+    }
+    
+    
+    .buy_on .humble_bundle{
+        width: 16%;
+    }
+    .buy_on .humble_bundle{
+        padding-left: 4%;
+    }
+
+    .buy_on .humble_bundle p{
+        font-size: 27px;
+    }
+    
+    .buy_on .playstation_store{
+        width: 16%;
+    }
+    .body .sondtrack .img_album .right{
+        left: 89%;
+    }
+
+    .body .sondtrack .img_album2 .right2{
+        left: 89%;
+    }
     
 }
+
+
+
 
 @media screen and (max-width: 1200px){
     header nav .b{
@@ -44,7 +90,12 @@
     header span.ON .e {
         display: none;
     }
-
+    .body .sondtrack .img_album span.sound_on h2{
+        font-size: 90%;
+    }
+    .body .sondtrack .img_album span.sound_on1 h2{
+        font-size: 90%;
+    }
 }
 
 @media screen and (max-width: 970px){
@@ -95,6 +146,15 @@
     
 }
 
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 400px){
 
     header{
@@ -140,9 +200,10 @@
     }
 
     header span.ON{
-        top: 176px;
+        
         width: 100%;
-        left: 49.9%;
+        
+        transform: translate( 0%, 1%);
     }
 
     header span.ON .a {
