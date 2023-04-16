@@ -38,26 +38,23 @@
 
 
     .buy_on .steam{
-        width: 16%;
+        width: 21%;
     }
     .buy_on .oculus{
-        width: 16%;
+        width: 21%;
     }
     
     
     .buy_on .humble_bundle{
-        width: 16%;
-    }
-    .buy_on .humble_bundle{
+        width: 21%;
         padding-left: 4%;
     }
+    
 
-    .buy_on .humble_bundle p{
-        font-size: 27px;
-    }
+    
     
     .buy_on .playstation_store{
-        width: 16%;
+        width: 21%;
     }
     .body .sondtrack .img_album .right{
         left: 89%;
@@ -90,12 +87,8 @@
     header span.ON .e {
         display: none;
     }
-    .body .sondtrack .img_album span.sound_on h2{
-        font-size: 90%;
-    }
-    .body .sondtrack .img_album span.sound_on1 h2{
-        font-size: 90%;
-    }
+   
+    
 }
 
 @media screen and (max-width: 970px){
@@ -121,6 +114,66 @@
         top: 203%;
     }
 
+
+    
+
+
+    .body .sondtrack .img_album span.sound_on1{
+        display: none;
+    }
+
+    .body .sondtrack .img_album2 span.sound_on3{
+        display: none;
+    }
+
+    .body .sondtrack .img_album2 span.sound_on2 {
+       width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+   
+
+
+    .body .sondtrack .img_album {
+        justify-content: center;
+        display: flex;
+        padding: 0 0  0;
+    }
+
+    
+
+    .body .presentation h1{
+        
+        padding: 28px 0;
+    }
+    .body .sondtrack h1{
+        
+        padding: 28px 0;
+
+    }
+
+    .body .sondtrack .img_album span.sound_on {
+        display: block;
+        margin: 0 auto;
+    }
+
+    body .sondtrack .img_album span.sound_on img {
+        
+        margin: 0 auto;
+        display: block;
+        
+    }
+
+    
+
+    .body .sondtrack .img_album span.sound_on {
+        width: 50%;
+    }
+
+   
+
+
 }
     
 @media screen and (max-width: 770px){
@@ -128,6 +181,10 @@
    
     header nav .d{
         display:none;
+    }
+
+    header .logo {
+        width: 23%;
     }
    
     header span.ON .e {
@@ -143,7 +200,137 @@
     header span.ON{
         top: 300%;
     }
+
+    .banner button{
+        
+        width: 51%;
+        height: 26%;
+    }
+
+
+    .buy_on .steam{
+        width: 40%;
+        margin-top: 5px;
+    }
+    .buy_on .steam p{
+        margin: 19px 0;
+    }
+
+    .buy_on .oculus{
+        width: 40%;
+        
+    }
+    .buy_on .oculus p{
+        margin: 19px 0;
+    }
+
+    .buy_on .humble_bundle{
+        width: 40%;
+        
+    }
+
+    .buy_on .playstation_store{
+        width: 40%;
+        
+    }
+
+
+
+
     
+
+
+    .body .sondtrack .img_album span.sound_on1{
+        display: none;
+    }
+
+    .body .sondtrack .img_album2 span.sound_on3{
+        display: none;
+    }
+
+    .body .sondtrack .img_album2 span.sound_on2 {
+        width: 90%;
+    }
+
+    body .sondtrack .img_album2 span.sound_on2 img {
+        max-width: 363px;
+        margin: 0 auto;
+        display: block;
+    }
+
+
+    .body .sondtrack .img_album {
+        justify-content: center;
+        display: flex;
+        padding: 0 0  0;
+    }
+
+    
+
+    .body .presentation h1{
+        
+        padding: 28px 0;
+    }
+    .body .sondtrack h1{
+        
+        padding: 28px 0;
+
+    }
+
+    .body .sondtrack .img_album span.sound_on {
+        display: block;
+        margin: 0 auto;
+    }
+
+    body .sondtrack .img_album span.sound_on img {
+        max-width: 363px;
+        margin: 0 auto;
+        display: block;
+        
+    }
+
+    
+
+    .body .sondtrack .img_album span.sound_on {
+        max-width: 90%;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+    .awards .colone {
+        padding: 0 47px 54px;
+        display: block;
+    }   
+
+
+    .awards {
+        height: 100%;
+    }
+
+    
+    
+
+
+    .tAndS span p {
+        padding: 10px;
+    }
+
+    .tAndS span {
+        display: block;
+        padding-top: 31px;
+    }
+    .awards .colone ul{
+        margin:  0 auto;
+    }
 }
 
 
@@ -155,12 +342,11 @@
 
 
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 470px){
 
-    header{
-        height: 5%;
+    .buy_on .humble_bundle p {
+        font-size: 43px;
     }
-
 
     header .logo{
         width: 30%;
@@ -180,13 +366,10 @@
         width: 62px;
     }
 
-    .banner .background{
-        width: 393px;
-        height: 287px;
-    }
+   
 
     .banner button{
-        font-size: 135%;
+        
         width: 51%;
         height: 26%;
     }
@@ -226,14 +409,9 @@
         display: block;
     }
 
-    .buy_on .texte h1{
-        font-size: 42px;
-    }
+    
 
-    .buy_on .texte p{
-        font-size: 13px;
-    }
-
+    
 
     .buy_on .steam{
         width: 84%;
@@ -273,11 +451,11 @@
     }
 
     .body .presentation h1{
-        font-size: 36px;
+        
         padding: 28px 0;
     }
     .body .sondtrack h1{
-        font-size: 36px;
+        
         padding: 28px 0;
 
     }
@@ -296,15 +474,17 @@
         width: 90%;
     }
 
-    .body .sondtrack .img_album span.sound_on h2 {
-        
-        font-size: 20px;
+    
+
+    .body .sondtrack .img_album .right{
+        left: 86%;
     }
 
-    .body .sondtrack .img_album span.sound_on p {
-       
-        font-size: 16px;
+    .body .sondtrack .img_album2 .right2{
+        left: 86%;
     }
+
+    
 
 
     .body .sondtrack .img_album span.sound_on1{
@@ -336,15 +516,12 @@
     }
 
     .body .sondtrack h3{
-        font-size: 36px;
+        
         padding: 28px 0;
 
     }
 
-    .body .sondtrack .img_album2 span.sound_on2 h2 {
-        
-        font-size: 20px;
-    }
+    
 
     .awards .colone {
         padding: 0 47px 54px;
@@ -356,13 +533,8 @@
         height: 100%;
     }
 
-    .contact h1 {
-        font-size: 40px;
-    }
-
-    .contact p {
-        font-size: 14px;
-    }
+    
+    
 
 
     .tAndS span p {

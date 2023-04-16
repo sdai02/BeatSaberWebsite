@@ -17,7 +17,7 @@ header{
    
 }
 header .logo{
-    width: 11%;
+    width: 21%;
     padding-left: 10px;
     padding-top: 12px;
     
@@ -128,7 +128,8 @@ a:hover{
 }
 .banner .background{
     
-    height: 48%;
+    height: 100%;
+    width: 100%;
    
     
 }
@@ -165,7 +166,7 @@ a:hover{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 200%;
+    font-size: clamp( 20px, 1.3vw,56px);
     align-items: center;
     text-align: center;
     letter-spacing: 0.09em;
@@ -200,7 +201,7 @@ button:hover{
     font-family: 'Inter';
     font-style: italic;
     font-weight: 700;
-    font-size: 113px;
+    font-size: clamp(42px,3.1vw,113px);
     line-height: 0px;
     
     
@@ -217,7 +218,7 @@ button:hover{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 34px;
+    font-size: clamp(13px,3.1vw,34px);
     line-height: 49px;
     
     
@@ -264,21 +265,22 @@ button:hover{
     background: rgba(217, 217, 217, 0);
 }
 
-.buy_on .steam  p{
+.buy_on .steam p{
     margin: 8px 0;
     
     display: flex;
     margin-left: 8px;
+    margin-top: 19px;
     
     font-family: 'Hind Madurai';
     font-style: normal;
     font-weight: 700;
-    font-size: 46px;
+    font-size: 34px;
     line-height: 54px;
     color: #FFFFFF;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-        align-items: center;
+    align-items: center;
 }
 
 
@@ -318,7 +320,7 @@ button:hover{
     font-family: 'Hind Madurai';
     font-style: normal;
     font-weight: 700;
-    font-size: 46px;
+    font-size:  34px;
     line-height: 54px;
    
     display: flex;
@@ -327,7 +329,7 @@ button:hover{
     text-transform: uppercase;
     padding-left: 9px;
     color: #000000;
-
+    margin: 19px 0;
 }
 
 
@@ -378,7 +380,7 @@ button:hover{
     font-family: 'Hind Madurai';
     font-style: normal;
     font-weight: 700;
-    font-size: 34px;
+    font-size: clamp(27px, 3.1vw,34px);
     line-height: 40px;
     color: #D0011B;
 }
@@ -425,7 +427,7 @@ button:hover{
     font-family: 'Hind Madurai';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: clamp(25px,2.1vw ,25px);
     line-height: 40px;
     color: #000080;
 
@@ -446,11 +448,7 @@ button:hover{
 /* body */
 
 .body{
-    height: 2851px;
-    
-
     background: linear-gradient(270deg, #1C3241 24.39%, #354865 65.92%);
-
 }
 
 .body .presentation h1{
@@ -464,7 +462,7 @@ button:hover{
     font-family: 'Inter';
     font-style: italic;
     font-weight: 700;
-    font-size: 79px;
+    font-size: clamp(36px,3.1vw,79px);
     line-height: 54px;
     text-align: center;
     letter-spacing: 0.09em;
@@ -491,7 +489,7 @@ button:hover{
     font-family: 'Inter';
     font-style: italic;
     font-weight: 700;
-    font-size: 84px;
+    font-size: clamp(36px,3.1vw,84px);
     line-height: 54px;
     text-align: center;
     letter-spacing: 0.09em;
@@ -528,7 +526,7 @@ button:hover{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 28px;
+    font-size: clamp(20px,3.1vw,28px);
     line-height: 69.8%;
     padding-top: 80px;
     
@@ -542,7 +540,7 @@ button:hover{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: clamp(16px,3.1vw,20px);
     line-height: 69.8%;
     padding-top: 30px;
     
@@ -571,7 +569,7 @@ button:hover{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 28px;
+    font-size: clamp(90%,3.1vw,28px);
     line-height: 69.8%;
     padding-top: 80px;
     
@@ -623,7 +621,7 @@ button:hover{
 
 .body .sondtrack .img_album .right{
     position: absolute;
-    left: 85%;
+    left: 89%;
     top: 43%;
     transform: translate(-50%,-50%);
 
@@ -661,7 +659,7 @@ button:hover{
     font-family: 'Inter';
     font-style: italic;
     font-weight: 700;
-    font-size: 84px;
+    font-size: clamp(36px,3.1vw,84px);
     line-height: 54px;
     /* or 64% */
     
@@ -700,9 +698,9 @@ button:hover{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 28px;
+    font-size: clamp(20px,3.1vw,28px);
     line-height: 69.8%;
-    padding-top: 80px;
+    padding: 80px 0 43px;
     
     text-align: center;
     
@@ -789,7 +787,7 @@ button:hover{
 
 .body .sondtrack .img_album2 .right2{
     position: absolute;
-    left: 85%;
+    left: 89%;
     top: 43%;
     transform: translate(-50%,-50%);
 }
@@ -901,7 +899,7 @@ button:hover{
     font-family: 'Glory';
     font-style: italic;
     font-weight: 700;
-    font-size: 84px;
+    font-size: clamp(40px,3.1vw,84px);
     line-height: 94px;
     text-align: center;
     text-transform: uppercase;
@@ -919,7 +917,7 @@ button:hover{
     font-family: 'Glory';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: clamp(14px,1.3vw,24px);
     line-height: 27px;
     text-align: center;
     
