@@ -1011,20 +1011,17 @@ button:hover{
     left: 4px;
 }
 
-.tAndS{
+
+
+.tAndS {
     
-    background: #11161D;
-
-}
-
-.tAndS span{
-    display: flex;
     justify-content: center;
     padding-top: 31px;
+    background: #11161D;
 }
 
 
-.tAndS span p{
+.tAndS span {
     font-family: 'Glory';
     font-style: normal;
     font-weight: 500;
@@ -1039,7 +1036,7 @@ button:hover{
     padding-right: 28px;
 }
 
-.tAndS p1{
+.tAndS .copyright{
     font-family: 'Glory';
     font-style: normal;
     font-weight: 500;
@@ -1054,7 +1051,7 @@ button:hover{
     color: gray;
     
 }
-.tAndS img{
+.tAndS .copyright img{
     width: 16px;
     height: 16px;
 }
