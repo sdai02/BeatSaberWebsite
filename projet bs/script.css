@@ -1011,13 +1011,19 @@ button:hover{
 
 .tAndS {
     
-    justify-content: center;
+    
     padding-top: 31px;
     background: #11161D;
 }
 
+.tAndS .texte{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-.tAndS span {
+
+.tAndS .texte span {
     font-family: 'Glory';
     font-style: normal;
     font-weight: 500;
@@ -1028,7 +1034,7 @@ button:hover{
     
     color: #FFFFFF;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-right: 28px;
 }
 
