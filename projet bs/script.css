@@ -7,15 +7,12 @@
 
 header{
     width: 100%;
-    
-    
     background: rgba(19, 35, 48, 0.9);
-    
     position: fixed;
-    
     z-index: 1;
    
 }
+
 header .logo{
     width: 21%;
     padding-left: 10px;
@@ -25,9 +22,6 @@ header .logo{
 
 header .logo img{
     width: 100%;
-    
-    
-    
 }
 
 header nav .nav{
@@ -37,7 +31,7 @@ header nav .nav{
     font-weight: 700;
     font-size: 28px;
     line-height: 54px;
-    /* or 186% */
+    
 
     margin: auto;
     display: block;
@@ -72,8 +66,6 @@ header span {
 }
 
 header span.ON{
-    
-    
     background: rgba(19, 35, 48, 0.9);
     transform: translate(-50%,-50%);
     
@@ -93,7 +85,7 @@ header span.ON a {
     font-weight: 700;
     font-size: 28px;
     line-height: 54px;
-    /* or 186% */
+    
 
     text-decoration: none;
     align-items: center;
@@ -809,6 +801,8 @@ button:hover{
     object-fit: cover;
 }
 
+/* awards */
+
 .awards {
     
     height: 528px;
@@ -883,6 +877,8 @@ button:hover{
     height: 119px;
     margin: -14px 264px;
 }
+
+/* contact */
 
 .contact{
     
@@ -1011,7 +1007,7 @@ button:hover{
     left: 4px;
 }
 
-
+/* t&S */
 
 .tAndS {
     
