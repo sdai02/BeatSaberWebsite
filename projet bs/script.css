@@ -805,7 +805,7 @@ button:hover{
 
 .awards {
     
-    height: 528px;
+    
     background: linear-gradient(90deg, rgba(190, 57, 71, 0.81) 42.89%, rgba(119, 35, 46, 0.79) 66.95%);
 }
 
@@ -813,6 +813,7 @@ button:hover{
     padding: 12px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     
 }
 
