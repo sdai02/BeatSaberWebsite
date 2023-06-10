@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class ContactForm {
+            constructor(name = '', email ='', message = '') {
+                this.name = name;
+                this.email = email;
+                this.message = message;
+            }
+
+            isValidName() {
+                return this.name.trim(),length > 0;
+            }
+
+            isValidEmail() {
+                const validateEmailRegex = /^\S+@\S+\.\S+$/;
+                return this.message.trim().lenght > 0; 
+            }
+
+            isValidMessage(){
+                return this.message.trim().lenght > 0;
+            }
+            isValid(){
+                return this.isValidName() && this.isValidEmail()&& this.isValidMessage();
+            }
+            send() {
+                if (!this.isValid()) {
+                    throw new Error('The contact form is vaide') 
+                }
+            }
+        }
+    </script>
+</body>
+</html>
